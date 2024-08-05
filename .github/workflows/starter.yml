@@ -32,3 +32,8 @@ jobs:
 
     - name: List downloaded files
       run: ls -al
+
+    - name: List downloaded files
+      run: |
+       cd filer
+       ls -a
