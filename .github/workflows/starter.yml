@@ -36,4 +36,5 @@ jobs:
     - name: List downloaded files
       run: |
        cd filer
+       pwd
        ls -a
